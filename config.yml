@@ -1,10 +1,11 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/bird-website  # 改成你的 GitHub 仓库
+  repo: YOUR_GITHUB_USERNAME/bird-website
   branch: main
   open_authoring: true
+publish_mode: editorial_workflow
 
-media_folder: "assets/uploads"   # 上传图片存放路径
+media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
